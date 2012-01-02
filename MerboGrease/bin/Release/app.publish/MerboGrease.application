@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <assemblyIdentity name="MerboGrease.application" version="1.1.0.2" publicKeyToken="c7a6952637041b56" language="neutral" processorArchitecture="x86" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <description asmv2:publisher="MerbosMagic" co.v1:suiteName="IRC" asmv2:product="MerboGrease" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <deployment install="true" mapFileExtensions="true" co.v1:createDesktopShortcut="true">
+    <subscription>
+      <update>
+        <beforeApplicationStartup />
+      </update>
+    </subscription>
+    <deploymentProvider codebase="http://merbosmagic.co.cc/MerboGrease/MerboGrease.application" />
+  </deployment>
+  <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
+    <framework targetVersion="4.0" profile="Client" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
+  </compatibleFrameworks>
+  <dependency>
+    <dependentAssembly dependencyType="install" codebase="Application Files\MerboGrease_1_1_0_2\MerboGrease.exe.manifest" size="7099">
+      <assemblyIdentity name="MerboGrease.exe" version="1.1.0.2" publicKeyToken="c7a6952637041b56" language="neutral" processorArchitecture="x86" type="win32" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>0ZV+Y0UslmftetCpjDw6dvS6VkE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=FastTower\Merbo" issuerKeyHash="b03d5b4969bb0aa269f85f0b79eefc04c0ac4d94" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>FX0AqRAjvKypPa0Mv0a+lqsUXOM=</DigestValue></Reference></SignedInfo><SignatureValue>IKBBfH24RPvTXzTmRis91Hn2H0VTAVoP1f6BfTTWTmaL9mbfw8Wgfk4NmJ6YcnkDJKnFJx1qN7GxA3y8H9qCOHPvFznmDnUm9exCpO5Xb1PvVlyF5HKmczHW+G4fSHfZQLsHeaIxMb7kUb2AT9lscepgu9rAD2D1MveJ0vUPZCg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>k3feC1KeGZmT17B0kAGiKHRKdZ0XR0gWI4P6Wej/F4TIJQTCRJhIIOQsXPfTiiX8HSl+sKyCrRqeyTj5ZCmBUtm1rFXu9ykh2AD8NeAEUYyyNu1YJ7kJIPABp6CcoRvGkuXF9mYDi9sAwPGcWEilNWHQe/btwnkXAZCR5VgWHx0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e35c14ab96be46bf0cad3da9acbc2310a9007d15" Description="" Url=""><as:assemblyIdentity name="MerboGrease.application" version="1.1.0.2" publicKeyToken="c7a6952637041b56" language="neutral" processorArchitecture="x86" xmlns="urn:schemas-microsoft-com:asm.v1" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=FastTower\Merbo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>gJq/vcywMp7i2ALmqHBYY88W0ug=</DigestValue></Reference></SignedInfo><SignatureValue>ccaD/ITCX2CPZ7yJAzsOw0QfbKrAXd4zTfZrOvtyFVJb3yoSz1L2ilj6lKonnkTjb1SPAJL5Zgj9fzg4XGrIdpgZN6ZMHRG77vrEK5+AcaZJUb4JkgXAgZ2VCzJRGvsOdDSQoY0zSqP6ImI8VuA3f4wSehXEh1b/viyy87tjoto=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>k3feC1KeGZmT17B0kAGiKHRKdZ0XR0gWI4P6Wej/F4TIJQTCRJhIIOQsXPfTiiX8HSl+sKyCrRqeyTj5ZCmBUtm1rFXu9ykh2AD8NeAEUYyyNu1YJ7kJIPABp6CcoRvGkuXF9mYDi9sAwPGcWEilNWHQe/btwnkXAZCR5VgWHx0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQFgVo6GYjj6RFrNdyqh7cRjANBgkqhkiG9w0BAQUFADApMScwJQYDVQQDHh4ARgBhAHMAdABUAG8AdwBlAHIAXABNAGUAcgBiAG8wHhcNMTIwMTAyMTc1NzQ4WhcNMTMwMTAxMjM1NzQ4WjApMScwJQYDVQQDHh4ARgBhAHMAdABUAG8AdwBlAHIAXABNAGUAcgBiAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJN33gtSnhmZk9ewdJABoih0SnWdF0dIFiOD+lno/xeEyCUEwkSYSCDkLFz304ol/B0pfrCsgq0ansk4+WQpgVLZtaxV7vcpIdgA/DXgBFGMsjbtWCe5CSDwAaegnKEbxpLlxfZmA4vbAMDxnFhIpTVh0Hv27cJ5FwGQkeVYFh8dAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAADoytMxQm5CLCFkNCoBNvp9pNGT7dqqtneV25IvMPUPt9PcHKtPlVc+SoIoArFV93ViF9kUkvonjvwYKZ/DUzZo8RohFh5qT5iPaGRHn+aA6mWHHIVo34/V3DLVrT8UFa9p7FDJi3OGDE1QQS3ErVQ6uYmFjiLDSgFc4w96GyLM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

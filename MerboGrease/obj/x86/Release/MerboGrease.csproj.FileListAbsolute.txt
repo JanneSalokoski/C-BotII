@@ -1,0 +1,10 @@
+c:\users\merbo\documents\visual studio 2010\Projects\MerboGrease\MerboGrease\bin\Release\MerboGrease.exe
+c:\users\merbo\documents\visual studio 2010\Projects\MerboGrease\MerboGrease\bin\Release\MerboGrease.pdb
+c:\users\merbo\documents\visual studio 2010\Projects\MerboGrease\MerboGrease\obj\x86\Release\ResolveAssemblyReference.cache
+c:\users\merbo\documents\visual studio 2010\Projects\MerboGrease\MerboGrease\obj\x86\Release\MerboGrease.exe
+c:\users\merbo\documents\visual studio 2010\Projects\MerboGrease\MerboGrease\obj\x86\Release\MerboGrease.pdb
+C:\Users\Merbo\Documents\Visual Studio 2010\Projects\MerboGrease\MerboGrease\bin\Release\MerboGrease.exe.config
+C:\Users\Merbo\Documents\Visual Studio 2010\Projects\MerboGrease\MerboGrease\obj\x86\Release\MerboGrease.exe.manifest
+C:\Users\Merbo\Documents\Visual Studio 2010\Projects\MerboGrease\MerboGrease\obj\x86\Release\MerboGrease.application
+C:\Users\Merbo\Documents\Visual Studio 2010\Projects\MerboGrease\MerboGrease\bin\Release\MerboGrease.exe.manifest
+C:\Users\Merbo\Documents\Visual Studio 2010\Projects\MerboGrease\MerboGrease\bin\Release\MerboGrease.application
